@@ -34,3 +34,6 @@ build/
 
 ###ENV Files ###
 .env
+
+##Application Properties##
+application.properties
