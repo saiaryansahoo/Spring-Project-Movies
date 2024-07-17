@@ -19,6 +19,7 @@ jobs:
     - name: Set up JDK 17
       uses: actions/setup-java@v2
       with:
+        distribution: 'temurin' # Specify the distribution here
         java-version: '17'
 
     - name: Build with Maven
@@ -37,6 +38,7 @@ jobs:
     - name: Set up JDK 17
       uses: actions/setup-java@v2
       with:
+        distribution: 'temurin' # Specify the distribution here
         java-version: '17'
 
     - name: Deploy Application
